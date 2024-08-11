@@ -668,12 +668,12 @@ align-items: center;
 }
 .container7{
 
-width:100vw;
+width:100%;
     display: flex;
     gap:24px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 /*     margin-top: 56px; */
-    overflow-x: scroll;
+    overflow-x: auto;
     padding:32px 70px 56px 70px;
 }
 .container7 .top {
@@ -684,7 +684,7 @@ width:100vw;
 .brands-name{
     width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     gap:24px;
     padding: 32px 70px 24px 70px;
