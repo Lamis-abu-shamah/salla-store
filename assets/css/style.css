@@ -938,7 +938,7 @@ footer .bottom{
     .container4 {
         grid-template-columns: repeat(1, minmax(288.5px, 1fr)); /* 1 column on very small screens */
         justify-items: center;
-        text-align: center;
+      /*   text-align: center; */
     }
     .filter figure{
         font-size: 18px;
