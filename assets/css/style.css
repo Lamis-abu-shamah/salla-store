@@ -135,7 +135,6 @@ line-height: 25px;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-/*     object-fit: contain; */
 }
 .hero .arr{
     max-width: 55px;
@@ -145,7 +144,6 @@ line-height: 25px;
  
     display: flex;
     gap:16px;
-   /*  border-right:#EEEEEE 1px dotted; */
     padding-right: 32px;
     padding: 32px;
    
@@ -228,7 +226,6 @@ right: 176px;
 top: 85px;
 } 
 .Featured , .customer-reviews , .brands {
-/*  max-width: 100%; */
     display: flex;
     justify-content: space-between;
     padding:55px 70px 32px 70px;
@@ -305,10 +302,6 @@ justify-content: center;
 .greycolor2{
     color: #333333!important;
 }
-/* .container4 .alldesc{
-    max-width: 256px;
-    padding:16px;
-} */
  .container4 .information{
     padding: 16px;
  }
@@ -361,11 +354,8 @@ justify-content: center;
 width: 50px;
 height: 56px;
 color:#A5A5A5;
-
-/* margin-right: 8px; */
 }
 .container4 .add , .container5 .add{
-/* width: 100%; */
 width: 299px;
 height: 56px;
 color: #444444;
@@ -409,9 +399,7 @@ padding:90px 5vw;
 .Bestsales .lap-img {
   width:100%;
   height:auto;
-  max-width: 605px;;
- /*  object-fit: cover;
-  display: block; */
+  max-width: 605px;
 } 
 .Bestsales img{
     width: 100%;
@@ -461,19 +449,16 @@ padding:90px 5vw;
     gap: 16px;
     border: 2px solid #62D0B6;
     border-radius: 4px;
-  /*   padding-top: 16px; */
+
 }
 .container5 .offer .watch-offer{
     max-width: 196px;
     height: auto;
-  /*   position: relative; */
   position: relative;
 }
 .container5 .offer .watch-offer .watch{
     width: 100%;
     height: auto;
-  /*   width: 100%;
-    height: auto; */
     object-fit: contain;
     overflow: hidden;
     
@@ -539,15 +524,13 @@ padding:90px 5vw;
 margin-top: -5px;
 }
 .container5 .btns{
-/* max-width: 100%; */
 justify-content: space-around;
-/* flex-wrap: wrap; */
+
 
 }
 .container5 .btns .add{
     max-width: 299px;
     width: 100%;
-  /*   min-width: 299px; */
     height: auto;
     color:#FFFFFF ;
     background-color: #62D0B6;
@@ -561,7 +544,6 @@ justify-content: space-around;
 .container6{
     width: 100%;
     display: flex;
- /*    background-color: #62D0B6; */
     gap:24px;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -618,7 +600,6 @@ justify-content: space-around;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-   /*  padding: 56px 134px 24px 134px; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -672,7 +653,6 @@ width:100%;
     display: flex;
     gap:24px;
     justify-content: space-between;
-/*     margin-top: 56px; */
     overflow-x: auto;
     padding:32px 70px 56px 70px;
 }
@@ -859,7 +839,6 @@ cursor: pointer;
  .container2{
     flex-direction: column;
     gap:5px;
-/*     margin-bottom: 10px!important; */
  }
  .container3{
     justify-content: center;
@@ -916,7 +895,6 @@ cursor: pointer;
 }
 footer .bottom{
     justify-content: center;
-   /*      padding:10px; */
     
 }
 
@@ -938,7 +916,6 @@ footer .bottom{
     .container4 {
         grid-template-columns: repeat(1, minmax(288.5px, 1fr)); /* 1 column on very small screens */
         justify-items: center;
-      /*   text-align: center; */
     }
     .filter figure{
         font-size: 18px;
