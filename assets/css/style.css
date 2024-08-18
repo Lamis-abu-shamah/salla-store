@@ -409,7 +409,7 @@ padding:90px 5vw;
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    width: 100vw;
+    width: 100%;
     overflow-x: scroll;
     padding:32px 70px 56px 70px;
 }
@@ -593,7 +593,7 @@ justify-content: space-around;
     cursor: pointer;
 }
 .bestsales2{
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin-top: 56px;
     background-image: url(../img/bestsales2bg.png);
@@ -662,7 +662,7 @@ width:100%;
     justify-content: space-between;
 }
 .brands-name{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -684,6 +684,9 @@ width:100%;
 .brands-name .name:hover{
     filter:grayscale(0%);
 }
+/* footer{
+    width: 100%;
+} */
 footer .top{
     display: flex;
     justify-content: space-between;
