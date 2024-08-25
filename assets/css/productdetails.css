@@ -84,18 +84,90 @@ line-height: 25px;
 }
 .Apple-iphone{
     display: flex;
+    padding: 45px 70px;
+    gap: 42px;
 }
-
+.Apple-iphone .iphone-img{
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+}
 .Apple-iphone .details .options , .Apple-iphone .details .options .opt{
     display:flex;
+}
+.Apple-iphone .details .options{
+    gap: 32px;
+    padding:16px 0;
+}
+.Apple-iphone .details .opt{
+    gap:8px;
 }
 .Apple-iphone .details .box{
     display: flex;
 /*     justify-content: space-between; */
 }
+.right-border{
+    border-right: 1px solid #EEEEEE;
+}
 .Apple-iphone .details .btns {
     display: flex;
     gap:8px;
+}
+.Apple-iphone .details .title{
+    font-size: 24px;
+    font-weight: 400px;
+    line-height:35.28px ;
+    color: #333333;
+}
+.Apple-iphone figure{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    color:#666666;
+}
+.Apple-iphone .details p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #666666;
+}
+.Apple-iphone .details .show{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #62D0B6;
+    padding: 8px 0 24px 0;
+}
+.Apple-iphone .details .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    padding: 22.5px 16px;
+    margin-bottom: 4px;
+}
+.Apple-iphone .details .box span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height:18.96px ;
+    color:#333333 ;
+}
+.Apple-iphone .details .box p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height:15.41px ;
+    color:#A5A5A5;
+}
+.Apple-iphone .details .box button{
+    width: 95px;
+    height: 38px;
+    color:#62D0B6;
+    background-color: #F8F8F8;
+    padding: 10px;
+font-size: 14px;
+font-weight: 400;
+border: 1px solid #62D0B6;
+border-radius: 4px;
 }
 @media screen and (max-width:900px) {
     .nav1 {
