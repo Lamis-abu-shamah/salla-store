@@ -260,10 +260,10 @@ color: #666666;
     display: flex;
     gap: 24px;
     justify-content: space-around;
-    flex-wrap: wrap;
+     flex-wrap: wrap; 
 }
 .card-container .product{
-    width: 288.5px;
+    max-width: 288.5px;
     height: auto; 
     border: 1px #EEEEEE solid;
     border-radius: 4px;
@@ -513,9 +513,18 @@ min-width: 100%;
 footer .bottom{
     justify-content: center;
 
-    
 }
 
+}
+@media screen and (min-width: 1365px) {
+    .card-container {
+      flex-wrap: nowrap; /* Prevent wrapping */
+    }
+    .product {
+        flex: 1 1 auto; /* Allow them to shrink */
+        min-width: 0;   /* Prevent them from overflowing */
+      }
+   
 }
 @media screen and (max-width:1299px){
     footer .bottom {
