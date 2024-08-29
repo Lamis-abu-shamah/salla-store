@@ -410,7 +410,7 @@ padding:90px 5vw;
     justify-content: space-between;
     gap: 24px;
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: auto;
     padding:32px 70px 56px 70px;
 }
 .filter img{
@@ -439,15 +439,17 @@ padding:90px 5vw;
  padding: 56px 5vw 86px 5VW; 
  display: flex;
  gap: 16px;
- justify-content: space-around;
- flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+/*  flex-wrap: wrap; */
 }
 .container5 .offer{
  max-width: 100vw;
     display: flex;
-     flex-wrap: wrap; 
+    flex-wrap: wrap; 
     gap: 16px;
     border: 2px solid #62D0B6;
+    align-items: center;
     border-radius: 4px;
 
 }
@@ -548,6 +550,7 @@ justify-content: space-around;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 56px;
+/*     padding: 56px 70px; */
 }
 .container6 .item{
     max-width: 395px;
@@ -668,7 +671,7 @@ width:100%;
     align-items: center;
     gap:24px;
     padding: 32px 70px 24px 70px;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 .brands-name .name{
     width:226px;
@@ -692,7 +695,7 @@ footer .top{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 70px 32px 70px 26px;
+    padding:  24px 70px;
     background-color: #F8F8F8;
     gap:10px;
 
@@ -883,6 +886,9 @@ cursor: pointer;
 }
 .container4 {
     grid-template-columns: repeat(2, minmax(288.5px, 1fr)); /* 2 columns on smaller screens */
+}
+.container5{
+    flex-direction: column;
 }
 .Bestsales{
     flex-direction: column;
